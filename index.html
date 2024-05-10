@@ -14,7 +14,7 @@
     <!-- header -->
     <header>
         <div class="container-fluid">
-            <nav class="navbar navbar-expand-xl justify-content-around">
+            <nav class="navbar navbar-expand-md justify-content-around">
 
                 <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler" aria-controls="navbarNav" aria-expanded="false" aria-label="toggle navigation"><span class="navbar-toggler-icon navbar-dark"></span></button>
 
@@ -32,76 +32,83 @@
     </header>
 
     <!-- main -->
-    <main class="row">
-            <div class="col-lg-6 align-item-center">
-                <div class="col-md-6">
-                <img src="img/rick_reyes_logo.png" alt="logo">
+    <main class="d-flex row justify-content-center">
+            <div class="col-md-6">
+                <div class="col-md-7">
+                    <img src="img/rick_reyes_logo.png" alt="logo" class="rickLogoMain">
+                </div>
+                <div class="d-flex justify-content-center">
+                    <p>Software Engineer</p>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <button type="button" class="btn btn-dark mb-4"><a href="#contact">Let's Chat</a></button>
+                </div>
             </div>
-            <div class="col-md-6 d-flex p-4 justify-content-center">
-                <button type="button" class="btn btn-dark">Let's Chat</button>
-            </div>
-            </div>
-            <div class="col-lg-6">
-                <img src="img/rick_reyes.png" alt="">
+            <div class="col-md-5 d-flex">
+                <img src="img/rick_reyes.png" alt="" class="rickImgMain rounded-circle mt-5">
             </div>
     </main>
 
     <!-- about -->
-    <section class="mt-4 ml-4 row justify-content-around" id="about">
-        <img src="img/rick_reyes_bw.jpg" alt="rick_reyes">
-        <div class="bio col-md-6">
-            <img src="img/about.png" alt="">
-            <p class="bioText">
+    <section class="row justify-content-around" id="about">
+            <div class="col-md-7 align-content-center">
+            <img src="img/rick_reyes_bw.png" alt="rick_reyes" class="rickImgAbout rounded-circle mt-5 ms-5">
+        </div>
+        <div class="bio col-md-5 align-content-center">
+            <img src="img/about.png" alt="" class="mb-2 align-content-center">
+            <p class="bioText text-sm-center text-md-center me-5">
                 Hi there,I'm Ricardo Reyes, I am a full stack software engineer.
                 Please take a look around, and see what I have been up to, let's see what we can build together.
             </p>
-            <p>
+            <p class="bioText text-sm-center text-md-center me-5">
                 Solving problems and providong elegant, innovative and accessible solutions is a passion of mine. I am always thinking about code this passion often leads me to solving my coding problems, while gaming, playing music, family time or grilling. I'll figure out the answer and rush to my computer. I'm passionate about coding, passionate about new technologies, and passionate about software engineering who will do what ever it takes to find an answer.
             </p>
-            <p>
+            <p class="bioText text-sm-center text-md-center me-5 mb-5">
                 I made this personal portfolio website using HTML, CSS, and Bootstrap.
             </p>
         </div>
     </section>
 
     <!-- skills -->
-    <section class="mt-4 ml-4 row justify-content-around" id="skills">
-        <div class="col-md-6">
-        <img src="img/skills_new.png" alt="skills">
-        <p>
+    <section class="row justify-content-around" id="skills">
+        <div class="col-md-5">
+        <img src="img/skills_new.png" alt="skills" class="">
+        <p class="text-sm-center text-md-center ms-5 me-3">
             I currently have knowledge in the following languages and relevent skills. I have a strong understanding of HTML, CSS, software design as well as SDLC. I have the basics when it comes to data structures and algoriths.
         </p>
-        <p>
+        <p class="text-sm-center text-md-center ms-5 me-3">
             I proficient in Java, C++, Python and C#. I know the command line and the linux terminal. I have and still use tool such as Git / GitHub and can do pull request, push and clone to Git and GitHub using the terminal. I have used frameworks such as Node.js, React, Astro, and Next.js. 
         </p>
-        <p>
+        <p class="text-sm-center text-md-center ms-5 me-3">
             I am ready to learn anything and everything.
         </p>
         </div>
-        <img src="img/skills.png" alt="">
+        <div class="col-md-7">
+            <img src="img/skills.png" alt="" class="skillsImg ms-5 mt-5 mb-4">
+        </div>
     </section>
 
     <!-- projects -->
-    <section id="projects">
-        <div>
-            <img src="img/Vitos BarberShop.png" alt="Vito">
+    <section id="projects" class="row d-flex justify-content-center align-content-center ms-5 mt-4">
+        <div class="col-md-4">
+            <img src="img/Vitos BarberShop.png" alt="Vito" class="projectLogo rounded-circle">
             <p>Vito's is a barber located at El Jefe Barbershop in Mission, Texas.</p>
-            <button type="button"></button>
+            <button type="button" class="btn btn-dark mb-4 border border-secondary ms-5">Visit</button>
         </div>
-        <div>
-            <img src="img/Solemas Creations.png" alt="sol">
+        <div class="col-md-4">
+            <img src="img/Solemas Creations.png" alt="sol" class="projectLogo rounded-circle">
             <p>Solemas is a mom and daughter small decoration and pastry business.</p>
             <button type="button"></button>
         </div>
-        <div>
-            <img src="img/Resume.png" alt="resume">
+        <div class="col-md-4">
+            <img src="img/Resume.png" alt="resume" class="projectLogo rounded-circle">
             <p>This is my resume done using HTML,CSS, and Bootstrap.</p>
             <button type="button"></button>
         </div>
     </section>
 
     <!-- contact -->
-    <section>
+    <section id="contact">
         <div class="container">
             <div class="row">
               <div class="col-md-6 col-md-offset-3">
@@ -137,7 +144,7 @@
                     <!-- Form actions -->
                     <div class="form-group">
                       <div class="col-md-12 text-right">
-                        <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                        <button type="submit" class="btn btn-dark btn-lg mb-4 mt-4">Submit</button>
                       </div>
                     </div>
                   </fieldset>
@@ -149,7 +156,7 @@
     </section>
 
     <!-- footer -->
-    <footer>
+    <footer id="footer">
         <div class="col-md-6">
             <p>
                 &copy; Copyright 2024
