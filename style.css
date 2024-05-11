@@ -37,7 +37,7 @@ button a {
     color: #f5f5f5;
 }
 button a:hover {
-    color: #2B2B2B.;
+    color: #2B2B2B;
 }
 
 .collapse ul>li>a {
@@ -82,13 +82,10 @@ nav {
     padding: 1.5rem 3.5rem;
 }
 
-.rickImgMain {
-    display: flex;
-    width: 75%;
-}
 .rickImgAbout {
     display: flex;
     width: 75%;
+    box-shadow: 5px 5px 5px #FFA700;
 }
 
 .skillsImg {
@@ -99,4 +96,14 @@ nav {
 .projectLogo {
     display: flex;
     width: 50%;
+}
+
+.linkedIn {
+    width: 5%;
+    background: #f5f5f5;
+}
+
+.icon {
+    color: #f5f5f5;
+    font-size: 25px;
 }
