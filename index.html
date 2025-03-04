@@ -16,26 +16,38 @@
     <header>
         <div class="container-fluid">
             <nav class="navbar navbar-expand-md justify-content-around">
+
+                <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler" aria-controls="navbarNav" aria-expanded="false" aria-label="toggle navigation"><span class="navbar-toggler-icon navbar-dark"></span></button>
+
+                <div class="collapse navbar-collapse justify-content-end align-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </header>
 
     <!-- main -->
-    <main class="justify-content-evenly row col-md-12 col-xl-12 col-xs-1">
-                <div class="logo col-lg-6">
-                    <div class="py-5 pb-5">
-                        <img src="img/rick_reyes_logo.png" alt="logo" class="rickLogoMain">
-                    </div>
+    <main class="m-5 p-5">
+            <div class="container container-fluid d-flex justify-content-center row">
+
+                <div class="d-flex justify-content-center mb-4">
+                   <img src="img/rick_reyes_logo.png" alt="logo" class="rickLogoMain">
                 </div>
 
-                <div class="about col-md-3">
-                    <div class="py-5 pt-5">
-                        <p>Hi there, I'm Ricardo Reyes, I am a full stack software engineer.
-                            Please take a look around, and see what I have been up to, let's see what we can build together.<br><hr> Solving problems and providing elegant, innovative and accessible solutions is a passion of mine. I am always thinking about code this passion often leads me to solving my coding problems, while gaming, playing music, family time or grilling. I'll figure out the answer and rush to my computer. I'm passionate about coding, passionate about new technologies, and passionate about software engineering who will do what ever it takes to find an answer.</p>
-                    </div>
+              <div class="d-flex justify-content-center mb-3">
+                    <p>Software Engineer</p>
                 </div>
 
-            
+                <div class="d-flex justify-content-center">
+                    <button type="button" class="btn btn-dark"><a href="#contact">Let's Chat</a></button>
+                </div>
+
+            </div>
     </main>
 
     <!-- about -->
@@ -43,20 +55,23 @@
       <!--
     <section class="row justify-content-around" id="about">
             <div class="col-md-7 align-content-center">
-            <img src="img/rick_reyes_bw.png" alt="rick_reyes" class="rickImgAbout rounded-circle mt-5 ms-5">
+            <img src="img/rick_comic.png" alt="rick_reyes" class="rickImgAbout rounded-circle mt-5 ms-5">
         </div>
         <div class="bio col-md-5 align-content-center">
             <img src="img/aboutY.png" alt="" class="mb-2 align-content-center">
             <p class="bioText text-sm-center text-md-center me-5">
-                Hi there, I'm Ricardo Reyes, I am a full stack software engineer.
-                Please take a look around, and see what I have been up to, let's see what we can build together.
-            </p>
-            <p class="bioText text-sm-center text-md-center me-5">
-                Solving problems and providing elegant, innovative and accessible solutions is a passion of mine. I am always thinking about code this passion often leads me to solving my coding problems, while gaming, playing music, family time or grilling. I'll figure out the answer and rush to my computer. I'm passionate about coding, passionate about new technologies, and passionate about software engineering who will do what ever it takes to find an answer.
+                Hey there, I’m Ricardo Reyes—I live and breathe code. Whether I’m gaming, jamming on my guitar, spending time with family, or even grilling, my mind is always engineering solutions.That "aha!" moment can strike anywhere, and when it does, I’m racing back to my keyboard to bring ideas to life. I thrive on solving problems, crafting elegant solutions, and pushing the boundaries of what’s possible. Obsessed with clean code, new technologies, and seamless user experiences, I’m always building, always learning, and always ready for the next challenge. Let’s create something incredible together!
             </p>
             <p class="bioText text-sm-center text-md-center me-5 mb-5">
-                I made this personal portfolio website using HTML, CSS, and Bootstrap.
+                <i>I made this personal portfolio website using HTML, CSS, and Bootstrap. I used AI to convert a picture of myself into a comic book image.</i>
             </p>
+            <h4 class="text-md-center">Skills</h4>
+            <ul class="p-1 justify-content-center">
+                <li class="text-md-center mb-1">• JavaScript (React, Next.js, Node.js) Python, Swift, Java, HTML, CSS, Bootstrap, Tailwind</li>
+                <li class="text-md-center mb-1">• MongDB, DynamoDB, JSON</li>
+                <li class="text-md-center mb-1">• Git, GitHub, Agile,</li>
+                <li class="text-md-center mb-1">• Astro, OpenGL, iOS Development</li>
+            </ul>
             <ul class="navbar nav mb-4 justify-content-center gap-4">
                 <li><a href="https://www.linkedin.com/in/ricardo-reyes-dev/" target="_blank"><i class="fa-brands fa-linkedin icon"></i></a></li>
                 <li><a href="https://github.com/Ricardo-ReyesJr" target="_blank"><i class="fa-brands fa-github icon"></i></a></li>
@@ -64,48 +79,34 @@
             </ul>
         </div>
     </section>
--->
-
-    <!-- skills -->
-     <!-- Removing the skills section -->
-      <!--
-    <section class="row justify-content-around" id="skills">
-        <div class="col-md-5">
-        <img src="img/skillsY.png" alt="skills" class="">
-        <p class="text-sm-center text-md-center ms-5 me-3">
-            I currently have knowledge in the following languages and relevent skills. I have a strong understanding of HTML, CSS, software design as well as SDLC. I have the basics when it comes to data structures and algoriths.
-        </p>
-        <p class="text-sm-center text-md-center ms-5 me-3">
-            I am proficient in Java, C++, Python and C#. I know the command line and the linux terminal. I have and still use tools such as Git / GitHub and can do pull request, push and clone to Git and GitHub using the terminal. I have used frameworks such as Node.js, React, Astro, and Next.js. 
-        </p>
-        <p class="text-sm-center text-md-center ms-5 me-3">
-            I am ready to learn anything and everything.
-        </p>
-        </div>
-        <div class="col-md-7">
-            <img src="img/skills.png" alt="" class="skillsImg ms-5 mt-5 mb-4">
-        </div>
-    </section>
--->
 
     <!-- projects -->
-    <section id="projects" class="row d-flex justify-content-center align-content-center ms-5 mt-4">
-        <div class="col-md-4">
-            <img src="img/Vitos BarberShop.png" alt="Vito" class="projectLogo rounded-circle">
-            <p class="text-sm-center text-md-center me-3 ms-0">
-                Vito's Barber is nestled within the vibrant atmosphere of El Jefe Barbershop, situated in Mission, Texas. With a commitment to precision and style, Vito's offers an exceptional barbering experience that merges traditional techniques with contemporary trends. Clients step into a space where skilled hands and attentive service converge, ensuring each visit results in a meticulously crafted haircut tailored to individual preferences. Whether it's a classic trim or a bold new look, Vito's Barber at El Jefe Barbershop provides a haven where patrons can indulge in quality grooming services amidst the welcoming ambiance of Mission's bustling community.</p>
-            <button type="button" class="btn btn-dark mb-4 border border-secondary ms-5"><a href="https://vitos-barbershop.netlify.app/" target="_blank">Visit</a></button>
+    <section id="projects" class="container container-fluid d-flex row justify-content-center align-content-center mt-4 mb-4 gap-3">
+        <div class="col-md-3 border border-2  rounded-2 pt-2 mb-2">
+            <h5 class="text-md-center bg-dark text-white p-1 rounded-4 shadow">Vito's BarberShop</h5>
+            <!-- <img src="img/Vitos BarberShop.png" alt="Vito" class="projectLogo rounded-circle"> -->
+            <p class="text-sm-center text-center me-3 ms-0">
+                A barbershop website built with HTML, CSS,and Bootstrap provides a sleek,responsive design showcasing services, pricing, and booking options. It ensures a modern and user-friendly experience,with optimized layouts for both desktop and mobile users.</p>
+        <div class="text-center">
+            <button type="button" class="btn btn-dark mb-4 border border-secondary ms-5 shadow"><a href="https://vitos-barbershop.netlify.app/" target="_blank">Visit</a></button>
+        </div> 
         </div>
-        <div class="col-md-4">
-            <img src="img/Solemas Creations.png" alt="sol" class="projectLogo rounded-circle">
-            <p class="text-sm-center text-md-center">Solemas Creations is a heartwarming tale of familial bond and entrepreneurial spirit, epitomizing the collaborative efforts of a mother-daughter duo in the realms of small-scale decoration and pastry craftsmanship. Founded on a foundation of shared passion and creativity, this boutique business radiates warmth and artistry in every handcrafted piece and delectable treat it offers. From intricately designed decorations to mouthwatering pastries, each creation bears the imprint of their dedication to excellence and attention to detail. With a focus on personalized service and bespoke designs, Solemas Creations not only fulfills clients' aesthetic desires but also adds a touch of homemade charm to every occasion it graces. In the heart of their community, this dynamic duo's venture stands as a testament to the power of familial collaboration and the beauty of turning shared dreams into tangible realities.</p>
-            <button type="button" class="btn btn-dark mb-4 border border-secondary ms-5"><a href="https://solemas-creations.netlify.app/" target="_blank">Visit</a></button>
+        <div class="col-md-3 border border-2 rounded-2 pt-2 mb-2">
+            <h5 class="text-md-center bg-dark text-white p-1 rounded-4 shadow">Solemas Creations</h5>
+           <!-- <img src="img/Solemas Creations.png" alt="sol" class="projectLogo rounded-circle"> -->
+            <p class="text-sm-center text-center">A mother-and-daughter business website built with HTML,CSS, and JavaScript offers a dynamic and visually engaging platform to showcase and sell personalized items.JavaScript enhances interactivity, enabling features like product customization,smooth navigation,and an intuitive shopping experience.</p>
+        <div class="text-center">
+            <button type="button" class="btn btn-dark mb-4 border border-secondary ms-5 shadow"><a href="https://solemas-creations.netlify.app/" target="_blank">Visit</a></button>
+        </div>  
         </div>
-        <div class="col-md-4">
-            <img src="img/Resume.png" alt="resume" class="projectLogo rounded-circle">
-            <p class="text-sm-center text-md-center me-5">
-                Crafted with precision and a flair for modern design, this resume represents a showcase of skills in HTML, CSS, and Bootstrap. Meticulously constructed to marry aesthetics with functionality, it stands as a testament to proficiency in web development and a keen eye for user experience. Through the strategic use of HTML for structuring content, CSS for styling elements, and Bootstrap for responsive design, this resume exemplifies a commitment to staying at the forefront of industry standards. Each line of code reflects not just technical expertise but also a dedication to presenting information in a clear, accessible manner. As a testament to the fusion of creativity and technical prowess, this resume underscores the ability to leverage cutting-edge tools to craft visually striking and engaging digital experiences.</p>
-            <button type="button" class="btn btn-dark mb-4 border border-secondary ms-5"><a href="https://ricardo-reyes-resume.netlify.app/" target="_blank">Visit</a></button>
+        <div class="col-md-3 border border-2 rounded-2 pt-2 mb-2">
+            <h5 class="text-md-center bg-dark text-white p-1 rounded-4 shadow">Resume</h5>
+           <!-- <img src="img/Resume.png" alt="resume" class="projectLogo rounded-circle"> -->
+            <p class="text-sm-center text-center me-5 text-center">
+                A resume website built with HTML, CSS, and Bootstrap provides a sleek, modern, and responsive design to showcase my skills, experience,and achievements in a unique way. Using Bootstrap ensures a polished layout with interactive elements, making your resume standout on any device.</p>
+        <div class="text-center">
+            <button type="button" class="btn btn-dark mb-4 border border-secondary ms-5 shadow"><a href="https://ricardo-reyes-resume.netlify.app/" target="_blank">Visit</a></button>
+        </div>  
         </div>
     </section>
 
@@ -146,7 +147,7 @@
                     <!-- Form actions -->
                     <div class="form-group">
                       <div class="col-md-12 text-right">
-                        <button type="submit" class="btn btn-dark btn-lg mb-4 mt-4">Submit</button>
+                        <button type="submit" class="btn btn-dark btn-lg mb-4 mt-4 border-1 border-secondary shadow">Submit</button>
                       </div>
                     </div>
                   </fieldset>
@@ -161,6 +162,7 @@
     <footer id="footer" class="row d-flex justify-content-between">
         <div class="col-md-8 col-sm-6">
             <p class="ms-2">
+                &copy; Copyright 2025
                 &copy; Copyright 2025
             </p>
         </div>
